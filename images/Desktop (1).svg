@@ -1,0 +1,26 @@
+<svg width="1375" height="831" viewBox="0 0 1375 831" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_61385_101)">
+<circle cx="876" cy="-137" r="559" transform="rotate(-180 876 -137)" fill="url(#paint0_radial_61385_101)"/>
+<circle cx="559" cy="-137" r="559" transform="rotate(-180 559 -137)" fill="url(#paint1_radial_61385_101)"/>
+<rect x="519" y="140" width="358" height="540" fill="#202024"/>
+<rect x="653" y="156" width="80" height="8" fill="#121214"/>
+<rect x="661" width="64" height="158" fill="url(#paint2_linear_61385_101)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_61385_101" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(876 -137) rotate(90) scale(559)">
+<stop stop-color="#FFC323"/>
+<stop offset="1" stop-color="#121214" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_61385_101" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(559 -137) rotate(90) scale(559)">
+<stop stop-color="#FF3D6E"/>
+<stop offset="1" stop-color="#121214" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint2_linear_61385_101" x1="622.5" y1="4.93019e-08" x2="755" y2="158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF008E"/>
+<stop offset="1" stop-color="#FFCD1E"/>
+</linearGradient>
+<clipPath id="clip0_61385_101">
+<rect width="1375" height="831" fill="white"/>
+</clipPath>
+</defs>
+</svg>

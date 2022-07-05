@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-color: hsl(240, 9%, 89%);
+  --secundary-color: hsl(240, 6%, 13%);
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+body {
+  /* background-color: aquamarine; */
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: url(./images/bacground-2.svg)no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  min-height: 812px;
+
+}
+
+.background-image img{
+  position: fixed;
+  width: 320px;
+  height: 812px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.container {
+  color: var(--primary-color);
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.avatar {
+  top: 3rem;
+  position: relative;
+}
+
+.avatar .profile-image {
+  height: 184px;
+  width: 160px;
+  margin: 11.5rem auto 0;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 28%, 99% 78%, 49% 100%, 0 74%, 0 29%);
+  margin-bottom: 1.5rem;
+}
+
+.avatar span {
+  z-index: 10;
+  top: 10.8rem;
+  left: 2rem;
+  position: absolute;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  /* padding: rem; */
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-top: 0.25rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 4rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1024px){
+  body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./images/Group\ 6683.jpg);
+  }
+
+  body main{
+    position: fixed;
+    width: min(112rem, 100%);
+    /* max-width: 1120px; */
+    display: initial;
+    background-image: none;
+  }
+
+  main{
+    width: 100vw; 
+    height: 100%;
+  }
+
+  /* #main .background-image img{ */
+    /* visibility: visible;
+    display: block;
+    width: auto;
+    height: 100%; */
+    /* position: absolute; */
+    /* z-index: -50; */
+  /* } */
+
+  #main .avatar{
+    /* border: 1px solid red; */
+    margin: 0;
+    top: 1.30rem;
+  }
+
+  #main .container h1{
+    margin-top: 1.5rem;
+    /* margin-bottom: 0.75rem; */
+    /* border: 1px solid red; */
+  }
+  
+  #userImage{
+    /* border: 1px solid red; */
+    height: 184px;
+    width: 160px;
+  }
+
+  #socialLinks{
+    margin-top: 2.3rem;
+  }
+
+  #socialLinks li a:hover{
+    transform: translateY(-8px);
+  }
+
+  #socialLinks a{
+    transition: 0.3s;
+  }
+
+  /* #main.container #userLink a:hover{
+    border: 1px solid red;
+    font: bold;
+  } */
+
+  a:hover{
+    filter: brightness(1.3);
+  }
+
+}
+ 
+
+
