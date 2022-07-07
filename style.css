@@ -6,6 +6,7 @@
   --primary-color: hsl(240, 9%, 89%);
   --secundary-color: hsl(240, 6%, 13%);
 }
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -31,7 +32,7 @@ main {
 
 }
 
-.background-image img{
+.background-image img {
   position: fixed;
   width: 320px;
   height: 812px;
@@ -103,15 +104,15 @@ ul {
 
 /* RESPONSIVE */
 
-@media (min-width: 1024px){
-  body{
+@media (min-width: 1024px) {
+  body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(./images/Group\ 6683.jpg);
   }
 
-  body main{
+  body main {
     position: fixed;
     width: min(112rem, 100%);
     /* max-width: 1120px; */
@@ -119,47 +120,36 @@ ul {
     background-image: none;
   }
 
-  main{
-    width: 100vw; 
+  main {
+    width: 100vw;
     height: 100%;
   }
 
-  /* #main .background-image img{ */
-    /* visibility: visible;
-    display: block;
-    width: auto;
-    height: 100%; */
-    /* position: absolute; */
-    /* z-index: -50; */
-  /* } */
-
-  #main .avatar{
-    /* border: 1px solid red; */
+  #main .avatar {
     margin: 0;
-    top: 1.30rem;
+    top: 1.50rem;
   }
 
-  #main .container h1{
+  #main .container h1 {
     margin-top: 1.5rem;
-    /* margin-bottom: 0.75rem; */
-    /* border: 1px solid red; */
   }
-  
-  #userImage{
-    /* border: 1px solid red; */
+
+  #userImage {
     height: 184px;
     width: 160px;
   }
 
-  #socialLinks{
+
+
+  #socialLinks {
     margin-top: 2.3rem;
   }
 
-  #socialLinks li a:hover{
+  #socialLinks li a:hover {
     transform: translateY(-8px);
   }
 
-  #socialLinks a{
+  #socialLinks a {
     transition: 0.3s;
   }
 
@@ -168,11 +158,48 @@ ul {
     font: bold;
   } */
 
-  a:hover{
+  a:hover {
     filter: brightness(1.3);
   }
 
+
 }
- 
 
+@media (min-width: 1900px) {
+  #main .avatar {
+    /* border: 1px solid red; */
+    margin: 0;
+    top: 1.50rem;
+  }
 
+  #main .container {
+    align-items: center;
+    position: relative;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    top: 4.5rem;
+  }
+
+}
+
+@media (min-width: 2500px) {
+  #main .avatar {
+
+    margin: 0;
+    top: 1.50rem;
+  }
+
+  #main .selo {
+    left: 10rem;
+    position: absolute;
+  }
+
+  #main .container {
+
+    max-width: 600px;
+    align-items: center;
+    position: relative;
+    margin-top: 1.5rem;
+    top: 12rem;
+  }
+}
